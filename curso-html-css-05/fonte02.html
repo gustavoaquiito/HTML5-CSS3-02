@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+         @font-face {
+            font-family: 'Love2';
+            src: url('fontes/love story.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Love';
+            src: url('fontes/Mf Love Song.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple advanced Typography)
+                - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Love', serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-family: 'Love2', sans-serif;
+            font-weight: normal;
+        } 
+    </style>
+</head>
+<body>
+    <h1>TÍTULO</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolore dignissimos consequuntur, facilis earum eveniet molestiae vitae temporibus officia totam accusantium ut? Minus a voluptatum nihil provident dolorem obcaecati id?</p>
+    <h2>Título 01</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veniam error quae et eius obcaecati consectetur excepturi minima, eligendi a! Praesentium cumque enim veniam, et quae modi quisquam ex voluptas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa quae iste blanditiis natus voluptatibus qui? Unde officia numquam vitae sapiente facilis autem magni eligendi nulla doloribus velit sequi, quo harum.</p>
+</body>
+</html>
