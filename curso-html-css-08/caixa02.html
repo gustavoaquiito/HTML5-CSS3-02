@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(124, 124, 124);
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(107, 107, 107);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.459);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: wheat;
+        }
+
+        article > aside {
+            background-color: rgb(82, 74, 59);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quis esse fugit beatae sapiente ut corrupti neque cupiditate dolores earum animi modi nostrum perspiciatis cum iure sed, provident quas deleniti!</p>
+                <aside>
+                    <p>Artigo escrito por jusé da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer>
+</body>
+</html>
